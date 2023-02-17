@@ -16,7 +16,7 @@ public class Product {
     }
     @Override
     public String toString() {
-        return String.format("наименование %s цена %f дата загрузки %s", name, cost, loadDate.toString());
+        return String.format(" - %s цена %f дата загрузки %s", name, cost, loadDate.toString());
     }
     public String getName() {
         return name;

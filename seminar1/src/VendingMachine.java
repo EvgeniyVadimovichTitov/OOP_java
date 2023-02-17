@@ -39,18 +39,18 @@ public class VendingMachine {
         }
         return foundProduct;
     }
-    public Product sellProduct(Product sallingProduct) {
-        Product sellProduct = new Product();
-        if (localList.contains(sallingProduct)) {
-            for (int i = 0; i < localList.size(); i++) {
-                if (localList.get(i) == sallingProduct) {
-                    sellProduct = localList.get(i);
-                    localList.remove(i);
-                    cash += sellProduct.getCost();
-                    return sellProduct;
-                }
-            }
-        }
-        return sellProduct;
-    }
+//    public Product sellProduct(Product sallingProduct) {
+//        Product sellProduct = new Product();
+//        if (localList.contains(sallingProduct)) {
+//            for (int i = 0; i < localList.size(); i++) {
+//                if (localList.get(i) == sallingProduct) {
+//                    sellProduct = localList.get(i);
+//                    localList.remove(i);
+//                    cash += sellProduct.getCost();
+//                    return sellProduct;
+//                }
+//            }
+//        }
+//        return sellProduct;
+//    }
 }
