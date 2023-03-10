@@ -1,0 +1,10 @@
+10-03-23 15:17:03: Notebook is running;
+10-03-23 15:17:16: Notebook is running;
+10-03-23 15:17:38: Notebook is running;
+10-03-23 15:18:31: Creating note with id - 1, head - домашние дела;
+10-03-23 15:19:18: Reading all notes in notebook;
+10-03-23 15:20:37: Creating note with id - 2, head - задачи по работе;
+10-03-23 15:21:27: Updating note id - 2;
+10-03-23 15:21:42: Creating note with id - 3, head - popo;
+10-03-23 15:21:47: Reading all notes in notebook;
+10-03-23 15:21:58: Deleting note id - 3;
