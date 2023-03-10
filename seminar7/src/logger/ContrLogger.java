@@ -15,6 +15,11 @@ public class ContrLogger implements Controllable {
     }
 
     @Override
+    public void finalize() {
+        log.log("Notebook close");
+    }
+
+    @Override
     public void create(Note note) {
         controller.create(note);
         log.log(String.format("Creating note with id - %s, head - %s", note.getIdNote(), note.getHead()));

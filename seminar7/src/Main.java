@@ -11,5 +11,7 @@ public class Main {
         View view = new View(new ContrLogger(new FileLogger(fileLog),new Controller(new RepositoryFile(new NoteMapper(),
                 new FileOperationlmpl(fileName)))));
         view.buttonClick();
+        view = null;
+        System.gc();
     }
 }
